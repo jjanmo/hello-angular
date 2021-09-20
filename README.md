@@ -1,27 +1,25 @@
-# HelloAngular
+# Hello Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
+> 앵귤러 맛보기
 
-## Development server
+> Just Simple Angular Practice Repository 😜
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Motivation
 
-## Code scaffolding
+네스트(NestJS)를 좀 더 정확히 이해하기 위해선 **앵큘러의 모듈 구조**를 알면 좋다고 한다. 또한 네스트 공식 홈페이지에서도 `The architecture is heavily inspired by Angular` 라고 적혀있었기에 앵귤러의 이해를 갖고 있다면 네스트에 대한 이해가 수월해질 것이라는 생각이 들어서 해당 저장소를 시작하게 되었다.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## How to start Angular
 
-## Build
+```shell
+# angular cli 설치
+npm install -g @angular/cli
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# app 생성
+ng new [app name]
 
-## Running unit tests
+# app open
+cd [app name]
+ng serve --open
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+> [앵귤러 개발환경 설정](https://angular.kr/guide/setup-local)
