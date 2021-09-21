@@ -23,3 +23,17 @@ ng serve --open
 ```
 
 > [앵귤러 개발환경 설정](https://angular.kr/guide/setup-local)
+
+## Simple App Structure
+
+## Minimum Typescript to understand Angular
+
+class
+interface
+public private protected
+-> 위의 것들이 들어가는 예시 만들기
+
+decorator
+https://medium.com/litslink/typescript-decorators-in-examples-c3afcd3c7ff8
+
+https://blog.logrocket.com/a-practical-guide-to-typescript-decorators/
