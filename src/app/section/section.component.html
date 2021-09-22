@@ -1,2 +1,2 @@
-<app-display></app-display>
-<app-buttons></app-buttons>
+<app-display [inputData]="command"></app-display>
+<app-buttons (clickEvent)="controlTimer($event)"></app-buttons>
